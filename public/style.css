@@ -1171,28 +1171,6 @@ h3 {
         border-radius: 50% 50% 48% 52%/49% 48% 52% 51%;
     }
 }
-  0% {
-    border-color: #737cf1;
-    border-radius: 50% 50% 48% 52%/49% 48% 52% 51%;
-  }
-  25% {
-    border-color: #ebffd8e6;
-    border-radius: 72% 28% 63% 37%/43% 59% 41% 57%;
-  }
-  50% {
-    border-color: #f0f4a2e6;
-    border-radius: 64% 36% 46% 54% / 26% 67% 33% 74%;
-  }
-  75% {
-    border-color: #f5bff7e6;
-    border-radius: 34% 66% 14% 86%/58% 46% 54% 42%;
-  }
-  100% {
-    border-color: #f8e3c6e6;
-    border-radius: 50% 50% 48% 52%/49% 48% 52% 51%;
-  }
-} */
-
 
 .paga-not-found {
     background-color: var(--pink-color);

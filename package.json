@@ -33,6 +33,7 @@
     "vite": "^8.3.0"
   },
   "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated",
     "react-icons": "^5.7.0"
   }
 }

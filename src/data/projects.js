@@ -1,3 +1,13 @@
+import Project1 from "../asset/Project-01.png"
+import Project2 from "../asset/Project-02.png"
+import Project3 from "../asset/Project-03.png"
+import Project4 from "../asset/Project-04.png"
+import Project5 from "../asset/Project-05.png"
+import Project6 from "../asset/Project-06.png"
+import Project7 from "../asset/Project-07.png"
+import Project8 from "../asset/Project-08.png"
+
+
 export const projects = [
   {
     id: "journify",
@@ -10,7 +20,7 @@ export const projects = [
       "AI-Powered full-stack MERN application with JWT authentication, role-based authorization, and RESTful APIs for itinerary generation and trip management.",
     description:
       "Journify is an intelligent travel planning platform that leverages OpenAI's API to generate personalized travel itineraries based on user preferences, budget, and trip duration. Users can create, customize, and manage their trips with full CRUD operations, real-time updates, and social features like reviews and ratings.",
-    image: "../src/asset/Project-01.png",
+    image: Project1,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://melodious-pasca-7bacbf.netlify.app/",
     featured: true,
@@ -61,7 +71,7 @@ export const projects = [
       "A gig marketplace platform that connects individuals, businesses, and skilled workers through a fast, hyperlocal system for discovering, posting, applying to, and managing short-term work opportunities.",
     description:
       "Dailygig is a hyperlocal gig marketplace designed to connect businesses and individuals with verified talent for quick tasks, projects, and collaborations. The platform enables users to discover nearby gigs, post work opportunities, apply for tasks, communicate with other users, and manage their professional profiles. It focuses on creating a trust-first ecosystem with user verification, real-time communication, notifications, and profile-based performance tracking.",
-    image: "../src/asset/Project-02.png",
+    image: Project2,
     github: "https://github.com/sujaynayek",
     liveDemo: "https://play.google.com/store/apps/details?id=in.dailygigInc.dailygig&pcampaignid=web_share",
     featured: true,
@@ -126,7 +136,7 @@ export const projects = [
       "A modern restaurant website for showcasing Dada Boudi Biryani's signature biryani, chaap, and Indian food offerings with menu browsing, restaurant information, and online ordering functionality.",
     description:
       "Dada Boudi Biryani is a restaurant-focused web application designed to provide customers with a convenient digital experience for discovering and ordering authentic biryani and Indian cuisine. The platform presents the restaurant's signature food items including chicken biryani, mutton biryani, egg biryani, aloo biryani, special biryani, and chaap. The website combines a visually engaging restaurant interface with structured menu presentation and customer-focused ordering functionality, allowing users to explore available dishes and easily access important restaurant information.",
-    image: "../src/asset/Project-03.png",
+    image: Project3,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://dada-boudi-biryani-website.web.app/",
     featured: true,
@@ -184,7 +194,7 @@ export const projects = [
       "A full-stack finance app enabling users to securely track income and expenses with JWT-based authentication, category-wise tracking, and real-time analytics.",
     description:
       "ExpenseTracker is a comprehensive personal finance management tool that helps users take control of their spending habits. The platform provides intuitive dashboards, category-based expense tracking, filtering and search capabilities, and insightful spending analytics.",
-    image: "../src/asset/Project-04.png",
+    image: Project4,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://github.com/sujaynayek?tab=repositories",
     featured: true,
@@ -234,7 +244,7 @@ export const projects = [
       "A modern restaurant website showcasing Indian-fusion pizzas, food menus, restaurant information, gallery, location, and online ordering options for customers.",
     description:
       "Indian Pizza House is a modern restaurant website built to showcase a unique fusion of Indian flavors and traditional Italian-style pizza. The website presents the restaurant's signature menu, including Butter Chicken Pizza, Achari Paneer Pizza, Paneer 65 Pizza, Chicken 65 Pizza, and other food and beverage options. It provides customers with an engaging way to explore the menu, learn about the restaurant, view its ambience through a visual gallery, find the restaurant location, check operating hours, and place orders through available ordering platforms. The website focuses on creating a visually appealing digital presence while making it easy for customers to discover the restaurant and order food.",
-    image: "../src/asset/Project-05.png",
+    image: Project5,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://theindianpizzahouse.com/",
     featured: true,
@@ -290,7 +300,7 @@ export const projects = [
       "A modern restaurant website designed to showcase authentic Indian biryani, menu offerings, restaurant information, and ordering options through a visually engaging digital experience.",
     description:
       "The Biryani Story is a restaurant website created to establish a strong digital presence for an Indian restaurant specializing in authentic biryani and Indian cuisine. The website allows customers to explore the restaurant's food offerings, learn more about its culinary concept, discover popular dishes, and access essential restaurant information. With a food-focused visual design and responsive layout, the platform provides customers with an engaging way to discover the restaurant and its menu while making important information and ordering options easily accessible.",
-    image: "../src/asset/Project-06.png",
+    image: Project6,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://thebiryanistory.com/",
     featured: true,
@@ -347,7 +357,7 @@ export const projects = [
       "A modern agency website showcasing ByBrainy's creative, technical, branding, and performance marketing services with portfolio projects, team profiles, company achievements, and career opportunities.",
     description:
       "ByBrainy is a creative and technology-driven agency website built to present a wide range of digital services under one platform. The website showcases the company's expertise in content creation, IT consultancy, performance marketing, and all-in-one branding. It highlights completed projects, client achievements, creative work across industries, team members, company vision, milestones, and career opportunities. The platform is designed as a professional digital presence that communicates ByBrainy's combination of creativity, technology, marketing, and business growth solutions to potential clients and partners.",
-    image: "../src/asset/Project-07.png",
+    image: Project7,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://bybrainy.com/",
     featured: true,
@@ -410,7 +420,7 @@ export const projects = [
     "A software technology company providing custom web and mobile application development, website solutions, UI/UX, branding, and digital products for businesses while building and operating its own technology products.",
   description:
     "Dailygig Ventures is a software development and product engineering company focused on building modern digital solutions for businesses and developing its own technology products. The company provides services including custom website development, mobile and web application development, UI/UX design, branding, dashboards, real-time applications, progressive web apps, and other digital solutions. Alongside client-focused software services, Dailygig Ventures develops its own products, including DailyGig, a hyperlocal gig marketplace designed to connect businesses and individuals with verified talent for quick tasks, projects, and collaborations. The company combines software services with product development to solve real-world business and marketplace problems through technology.",
-  image: "../src/asset/Project-08.png",
+  image: Project8,
   github: "https://github.com/sujaynayek?tab=repositories",
   liveDemo: "https://dailygigventures.com/",
   featured: true,

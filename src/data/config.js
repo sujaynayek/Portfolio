@@ -2,6 +2,7 @@
 // PROFILE CONFIGURATION
 // ============================================================
 import Image1 from "../asset/Image1.png"
+import Resume from "../asset/Sujay_Nayek_Resume.pdf"
 
 
 export const profile = {
@@ -21,7 +22,7 @@ longBio:
   github: "https://github.com/sujaynayek",
   linkedin: "https://www.linkedin.com/in/sujay-nayek/",
   twitter: "https://x.com/SujayNayek33989",
-  resume: "../src/asset/Sujay_Nayek_Resume-k.pdf",
+  resume: Resume,
   image: Image1,
   availability: "AVAILABLE FOR OPPORTUNITIES",
   stats: [

@@ -22,7 +22,7 @@ export const projects = [
       "Journify is an intelligent travel planning platform that leverages OpenAI's API to generate personalized travel itineraries based on user preferences, budget, and trip duration. Users can create, customize, and manage their trips with full CRUD operations, real-time updates, and social features like reviews and ratings.",
     image: Project1,
     github: "https://github.com/sujaynayek?tab=repositories",
-    liveDemo: "https://melodious-pasca-7bacbf.netlify.app/",
+    liveDemo: "https://journify-ai.netlify.app/",
     featured: true,
     technologies: [
       "React.js",

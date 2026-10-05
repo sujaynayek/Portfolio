@@ -6,6 +6,8 @@ import Project5 from "../asset/Project-05.png"
 import Project6 from "../asset/Project-06.png"
 import Project7 from "../asset/Project-07.png"
 import Project8 from "../asset/Project-08.png"
+import Project9 from "../asset/Project-09.png"
+
 
 
 export const projects = [
@@ -61,9 +63,81 @@ export const projects = [
     ],
   },
   {
+  id: "nuzio-ai",
+  slug: "nuzio-ai",
+  number: "02",
+  category: "AI / Full-Stack",
+  title: "Nuzio AI",
+  subtitle: "Personalized AI Audio News Platform",
+  shortDescription:
+    "AI-powered full-stack news platform with user authentication, personalized topic preferences, news API integration, and AI-powered audio news generation.",
+  description:
+    "Nuzio AI is a personalized audio news platform that allows users to select their preferred topics and receive a personalized news feed. The platform integrates the GNews API to fetch news and the ElevenLabs API to convert news content into AI-generated speech for an interactive audio news experience.",
+  image: Project2,
+  github: "https://github.com/sujaynayek/Nuzio-AI",
+  liveDemo: "https://nuzio-ai-xi.vercel.app/",
+  featured: true,
+  technologies: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "GNews API",
+    "ElevenLabs API",
+    "JWT",
+    "bcrypt",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Lucide React",
+  ],
+  overview:
+    "Nuzio AI aims to make consuming news more convenient by combining personalized news discovery with AI-powered audio playback. Users can authenticate, select their preferred topics, browse personalized news, and listen to news through an AI-generated audio experience.",
+
+  problem:
+    "Traditional news platforms can make it difficult for users to quickly find relevant content, while reading multiple articles can be time-consuming. Nuzio AI addresses this by combining topic-based personalization with an audio-first news experience.",
+
+  solution:
+    "Nuzio AI stores user topic preferences and uses them to provide a personalized news feed through the GNews API. Selected news content can be converted into speech using the ElevenLabs API and played through an integrated audio player. The backend also uses in-memory audio caching to reduce repeated ElevenLabs API requests for the same content and voice.",
+
+  keyFeatures: [
+    "Email and password authentication",
+    "JWT-based authentication",
+    "bcrypt password hashing",
+    "Personalized news based on user topic preferences",
+    "GNews API integration for fetching news",
+    "AI-powered text-to-speech using ElevenLabs API",
+    "Integrated audio news player",
+    "Multiple AI voice options",
+    "Voice preview functionality",
+    "In-memory caching for generated TTS audio",
+    "User profile and preference management",
+    "Responsive React.js interface",
+  ],
+
+  architecture:
+    "React.js frontend communicating with Node.js and Express.js REST APIs. MongoDB with Mongoose stores user accounts and preferences. The backend integrates with the GNews API to fetch news and the ElevenLabs API to generate AI audio. JWT is used for authentication and bcrypt is used for password hashing. Generated audio is temporarily cached in memory to reduce repeated TTS API requests.",
+
+  challenges: [
+    "Integrating external news and AI text-to-speech APIs into a full-stack application",
+    "Designing a personalized news flow based on user-selected topic preferences",
+    "Handling binary audio responses from the ElevenLabs API",
+    "Reducing repeated ElevenLabs API usage through in-memory audio caching",
+    "Implementing authentication and protected backend functionality",
+  ],
+
+  results: [
+    "Built and deployed a working personalized AI audio news platform",
+    "Implemented complete authentication and user preference flow",
+    "Integrated GNews for dynamic news retrieval",
+    "Integrated ElevenLabs for AI-powered news audio generation",
+    "Implemented an interactive audio news experience with voice selection and playback",
+  ],
+},
+  {
     id: "dailygig",
     slug: "dailygig",
-    number: "02",
+    number: "03",
     category: "Gig Marketplace",
     title: "Dailygig",
     subtitle: "Hyperlocal Gig Marketplace for Instant Work Opportunities",
@@ -71,7 +145,7 @@ export const projects = [
       "A gig marketplace platform that connects individuals, businesses, and skilled workers through a fast, hyperlocal system for discovering, posting, applying to, and managing short-term work opportunities.",
     description:
       "Dailygig is a hyperlocal gig marketplace designed to connect businesses and individuals with verified talent for quick tasks, projects, and collaborations. The platform enables users to discover nearby gigs, post work opportunities, apply for tasks, communicate with other users, and manage their professional profiles. It focuses on creating a trust-first ecosystem with user verification, real-time communication, notifications, and profile-based performance tracking.",
-    image: Project2,
+    image: Project3,
     github: "https://github.com/sujaynayek",
     liveDemo: "https://play.google.com/store/apps/details?id=in.dailygigInc.dailygig&pcampaignid=web_share",
     featured: true,
@@ -128,7 +202,7 @@ export const projects = [
   {
     id: "dada-boudi-biryani",
     slug: "dada-boudi-biryani",
-    number: "03",
+    number: "04",
     category: "Restaurant / Food",
     title: "Dada Boudi Biryani",
     subtitle: "Traditional Biryani Restaurant & Online Food Ordering Website",
@@ -136,7 +210,7 @@ export const projects = [
       "A modern restaurant website for showcasing Dada Boudi Biryani's signature biryani, chaap, and Indian food offerings with menu browsing, restaurant information, and online ordering functionality.",
     description:
       "Dada Boudi Biryani is a restaurant-focused web application designed to provide customers with a convenient digital experience for discovering and ordering authentic biryani and Indian cuisine. The platform presents the restaurant's signature food items including chicken biryani, mutton biryani, egg biryani, aloo biryani, special biryani, and chaap. The website combines a visually engaging restaurant interface with structured menu presentation and customer-focused ordering functionality, allowing users to explore available dishes and easily access important restaurant information.",
-    image: Project3,
+    image: Project4,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://dada-boudi-biryani-website.web.app/",
     featured: true,
@@ -186,7 +260,7 @@ export const projects = [
   {
     id: "expense-tracker",
     slug: "expense-tracker",
-    number: "04",
+    number: "05",
     category: "Finance / Full-Stack",
     title: "ExpenseTracker",
     subtitle: "Personal Finance Management Platform",
@@ -194,7 +268,7 @@ export const projects = [
       "A full-stack finance app enabling users to securely track income and expenses with JWT-based authentication, category-wise tracking, and real-time analytics.",
     description:
       "ExpenseTracker is a comprehensive personal finance management tool that helps users take control of their spending habits. The platform provides intuitive dashboards, category-based expense tracking, filtering and search capabilities, and insightful spending analytics.",
-    image: Project4,
+    image: Project5,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://github.com/sujaynayek?tab=repositories",
     featured: true,
@@ -236,7 +310,7 @@ export const projects = [
   {
     id: "indian-pizza-house",
     slug: "indian-pizza-house",
-    number: "05",
+    number: "06",
     category: "Restaurant / Food",
     title: "Indian Pizza House",
     subtitle: "Authentic Indian Fusion Pizza Restaurant Website",
@@ -244,7 +318,7 @@ export const projects = [
       "A modern restaurant website showcasing Indian-fusion pizzas, food menus, restaurant information, gallery, location, and online ordering options for customers.",
     description:
       "Indian Pizza House is a modern restaurant website built to showcase a unique fusion of Indian flavors and traditional Italian-style pizza. The website presents the restaurant's signature menu, including Butter Chicken Pizza, Achari Paneer Pizza, Paneer 65 Pizza, Chicken 65 Pizza, and other food and beverage options. It provides customers with an engaging way to explore the menu, learn about the restaurant, view its ambience through a visual gallery, find the restaurant location, check operating hours, and place orders through available ordering platforms. The website focuses on creating a visually appealing digital presence while making it easy for customers to discover the restaurant and order food.",
-    image: Project5,
+    image: Project6,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://theindianpizzahouse.com/",
     featured: true,
@@ -292,7 +366,7 @@ export const projects = [
   {
     id: "the-biriyani-story",
     slug: "the-biriyani-story",
-    number: "06",
+    number: "07",
     category: "Restaurant / Food",
     title: "The Biryani Story",
     subtitle: "Authentic Indian Biryani Restaurant Website",
@@ -300,7 +374,7 @@ export const projects = [
       "A modern restaurant website designed to showcase authentic Indian biryani, menu offerings, restaurant information, and ordering options through a visually engaging digital experience.",
     description:
       "The Biryani Story is a restaurant website created to establish a strong digital presence for an Indian restaurant specializing in authentic biryani and Indian cuisine. The website allows customers to explore the restaurant's food offerings, learn more about its culinary concept, discover popular dishes, and access essential restaurant information. With a food-focused visual design and responsive layout, the platform provides customers with an engaging way to discover the restaurant and its menu while making important information and ordering options easily accessible.",
-    image: Project6,
+    image: Project7,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://thebiryanistory.com/",
     featured: true,
@@ -349,7 +423,7 @@ export const projects = [
   {
     id: "bybrainy",
     slug: "bybrainy",
-    number: "07",
+    number: "08",
     category: "Agency / Digital Solutions",
     title: "ByBrainy",
     subtitle: "Creative Technology & Digital Marketing Agency",
@@ -357,7 +431,7 @@ export const projects = [
       "A modern agency website showcasing ByBrainy's creative, technical, branding, and performance marketing services with portfolio projects, team profiles, company achievements, and career opportunities.",
     description:
       "ByBrainy is a creative and technology-driven agency website built to present a wide range of digital services under one platform. The website showcases the company's expertise in content creation, IT consultancy, performance marketing, and all-in-one branding. It highlights completed projects, client achievements, creative work across industries, team members, company vision, milestones, and career opportunities. The platform is designed as a professional digital presence that communicates ByBrainy's combination of creativity, technology, marketing, and business growth solutions to potential clients and partners.",
-    image: Project7,
+    image: Project8,
     github: "https://github.com/sujaynayek?tab=repositories",
     liveDemo: "https://bybrainy.com/",
     featured: true,
@@ -412,7 +486,7 @@ export const projects = [
 {
   id: "dailygig-ventures",
   slug: "dailygig-ventures",
-  number: "08",
+  number: "09",
   category: "Software Services / Product",
   title: "Dailygig Ventures",
   subtitle: "Software Development & Product Engineering Company",
@@ -420,7 +494,7 @@ export const projects = [
     "A software technology company providing custom web and mobile application development, website solutions, UI/UX, branding, and digital products for businesses while building and operating its own technology products.",
   description:
     "Dailygig Ventures is a software development and product engineering company focused on building modern digital solutions for businesses and developing its own technology products. The company provides services including custom website development, mobile and web application development, UI/UX design, branding, dashboards, real-time applications, progressive web apps, and other digital solutions. Alongside client-focused software services, Dailygig Ventures develops its own products, including DailyGig, a hyperlocal gig marketplace designed to connect businesses and individuals with verified talent for quick tasks, projects, and collaborations. The company combines software services with product development to solve real-world business and marketplace problems through technology.",
-  image: Project8,
+  image: Project9,
   github: "https://github.com/sujaynayek?tab=repositories",
   liveDemo: "https://dailygigventures.com/",
   featured: true,
